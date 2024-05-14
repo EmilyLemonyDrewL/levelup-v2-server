@@ -1,0 +1,24 @@
+[
+  {
+      "model": "levelupapi.event",
+      "pk": 1,
+      "fields": {
+          "game": 4,
+          "description": "20 frightening rounds. K*ller vs. survivors. If survivors win more rounds than the k*ller, we will hand out awards based on the bloodpoints recieved",
+          "date": "2024-05-05",
+          "time": "8:00",
+          "organizer": 1
+      }
+  },
+  {
+      "model": "levelupapi.event",
+      "pk": 2,
+      "fields": {
+          "game": 5,
+          "description": "Whoever makes it to 100 points first!",
+          "date": "2024-05-20",
+          "time": "10:00",
+          "organizer": 1
+    }
+  }
+]
