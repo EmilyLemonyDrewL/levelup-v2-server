@@ -13,3 +13,6 @@ class Event(models.Model):
 # for TimeField, DateField, and DateTimeField
 # True, it will auto update everytime the object is saved
 # False, it will update only when you write code for it to update.
+    @property
+    def joined(self):
+        return self.__joined
